@@ -51,7 +51,7 @@ def run():
             write(memory[i+3], result)
             i = i + 4
         elif op == 3:  # input
-            result = input("Please provide a single integer input:")
+            result = input("Please provide an integer input: ")
             write(memory[i+1], int(result))
             i = i + 2
         elif op == 4:  # output
